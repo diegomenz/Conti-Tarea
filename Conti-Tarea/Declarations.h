@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Declarations.h
 //  Conti-Tarea
 //
 //  Created by Agustin Castaneda on 21/05/15.
 //  Copyright (c) 2015 Agustin Castaneda. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate >
-
+@interface Declarations : NSObject
 
 @end
-

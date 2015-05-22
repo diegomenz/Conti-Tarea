@@ -14,6 +14,9 @@
 		FB5263D71B0E969A00E40B21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5263D61B0E969A00E40B21 /* Images.xcassets */; };
 		FB5263DA1B0E969A00E40B21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5263D81B0E969A00E40B21 /* LaunchScreen.xib */; };
 		FB5263E61B0E969A00E40B21 /* Conti_TareaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5263E51B0E969A00E40B21 /* Conti_TareaTests.m */; };
+		FB5263F91B0EA22200E40B21 /* Tab01.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5263F81B0EA22200E40B21 /* Tab01.m */; };
+		FB5263FC1B0EA34300E40B21 /* TeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5263FB1B0EA34300E40B21 /* TeamCell.m */; };
+		FB5263FF1B0EAAE700E40B21 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5263FE1B0EAAE700E40B21 /* Declarations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		FB5263DF1B0E969A00E40B21 /* Conti-TareaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conti-TareaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5263E41B0E969A00E40B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5263E51B0E969A00E40B21 /* Conti_TareaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Conti_TareaTests.m; sourceTree = "<group>"; };
+		FB5263F71B0EA22200E40B21 /* Tab01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab01.h; sourceTree = "<group>"; };
+		FB5263F81B0EA22200E40B21 /* Tab01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab01.m; sourceTree = "<group>"; };
+		FB5263FA1B0EA34300E40B21 /* TeamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamCell.h; sourceTree = "<group>"; };
+		FB5263FB1B0EA34300E40B21 /* TeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamCell.m; sourceTree = "<group>"; };
+		FB5263FD1B0EAAE700E40B21 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		FB5263FE1B0EAAE700E40B21 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +96,13 @@
 				FB5263D11B0E969A00E40B21 /* ViewController.m */,
 				FB5263D31B0E969A00E40B21 /* Main.storyboard */,
 				FB5263D61B0E969A00E40B21 /* Images.xcassets */,
+				FB5264001B0EAB0800E40B21 /* Declarations */,
 				FB5263D81B0E969A00E40B21 /* LaunchScreen.xib */,
 				FB5263C91B0E969A00E40B21 /* Supporting Files */,
+				FB5263F71B0EA22200E40B21 /* Tab01.h */,
+				FB5263F81B0EA22200E40B21 /* Tab01.m */,
+				FB5263FA1B0EA34300E40B21 /* TeamCell.h */,
+				FB5263FB1B0EA34300E40B21 /* TeamCell.m */,
 			);
 			path = "Conti-Tarea";
 			sourceTree = "<group>";
@@ -117,6 +131,15 @@
 				FB5263E41B0E969A00E40B21 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB5264001B0EAB0800E40B21 /* Declarations */ = {
+			isa = PBXGroup;
+			children = (
+				FB5263FD1B0EAAE700E40B21 /* Declarations.h */,
+				FB5263FE1B0EAAE700E40B21 /* Declarations.m */,
+			);
+			name = Declarations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +242,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5263F91B0EA22200E40B21 /* Tab01.m in Sources */,
 				FB5263D21B0E969A00E40B21 /* ViewController.m in Sources */,
+				FB5263FF1B0EAAE700E40B21 /* Declarations.m in Sources */,
 				FB5263CF1B0E969A00E40B21 /* AppDelegate.m in Sources */,
+				FB5263FC1B0EA34300E40B21 /* TeamCell.m in Sources */,
 				FB5263CC1B0E969A00E40B21 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Tab01.h
 //  Conti-Tarea
 //
 //  Created by Agustin Castaneda on 21/05/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TeamCell.h";
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate >
-
+@interface Tab01 : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end
-
