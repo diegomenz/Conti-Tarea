@@ -17,6 +17,9 @@
 		FB5263F91B0EA22200E40B21 /* Tab01.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5263F81B0EA22200E40B21 /* Tab01.m */; };
 		FB5263FC1B0EA34300E40B21 /* TeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5263FB1B0EA34300E40B21 /* TeamCell.m */; };
 		FB5263FF1B0EAAE700E40B21 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5263FE1B0EAAE700E40B21 /* Declarations.m */; };
+		FB5264051B0ECB2500E40B21 /* Agustin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5264021B0ECB2500E40B21 /* Agustin.jpg */; };
+		FB5264061B0ECB2500E40B21 /* Diego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5264031B0ECB2500E40B21 /* Diego.jpg */; };
+		FB5264071B0ECB2500E40B21 /* Luis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB5264041B0ECB2500E40B21 /* Luis.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FB5263FB1B0EA34300E40B21 /* TeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamCell.m; sourceTree = "<group>"; };
 		FB5263FD1B0EAAE700E40B21 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		FB5263FE1B0EAAE700E40B21 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		FB5264021B0ECB2500E40B21 /* Agustin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Agustin.jpg; sourceTree = "<group>"; };
+		FB5264031B0ECB2500E40B21 /* Diego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Diego.jpg; sourceTree = "<group>"; };
+		FB5264041B0ECB2500E40B21 /* Luis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Luis.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 				FB5263CE1B0E969A00E40B21 /* AppDelegate.m */,
 				FB5263D01B0E969A00E40B21 /* ViewController.h */,
 				FB5263D11B0E969A00E40B21 /* ViewController.m */,
+				FB5264011B0EB1C900E40B21 /* Image */,
 				FB5263D31B0E969A00E40B21 /* Main.storyboard */,
 				FB5263D61B0E969A00E40B21 /* Images.xcassets */,
 				FB5264001B0EAB0800E40B21 /* Declarations */,
@@ -140,6 +147,16 @@
 				FB5263FE1B0EAAE700E40B21 /* Declarations.m */,
 			);
 			name = Declarations;
+			sourceTree = "<group>";
+		};
+		FB5264011B0EB1C900E40B21 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FB5264021B0ECB2500E40B21 /* Agustin.jpg */,
+				FB5264031B0ECB2500E40B21 /* Diego.jpg */,
+				FB5264041B0ECB2500E40B21 /* Luis.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5264051B0ECB2500E40B21 /* Agustin.jpg in Resources */,
 				FB5263D51B0E969A00E40B21 /* Main.storyboard in Resources */,
+				FB5264071B0ECB2500E40B21 /* Luis.jpg in Resources */,
+				FB5264061B0ECB2500E40B21 /* Diego.jpg in Resources */,
 				FB5263DA1B0E969A00E40B21 /* LaunchScreen.xib in Resources */,
 				FB5263D71B0E969A00E40B21 /* Images.xcassets in Resources */,
 			);

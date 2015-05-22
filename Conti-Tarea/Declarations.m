@@ -8,6 +8,9 @@
 
 #import "Declarations.h"
 
+NSMutableArray *maMembersName;
+NSMutableArray *maMembersImage;
+
 @implementation Declarations
 
 @end

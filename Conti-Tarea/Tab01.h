@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TeamCell.h";
+#import "TeamCell.h"
+#import "Declarations.h"    
+
 
 @interface Tab01 : UIViewController<UITableViewDelegate, UITableViewDataSource>
 

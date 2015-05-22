@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    maMembersName        = [NSMutableArray arrayWithObjects: nInitialMembersName];
+    maMembersImage        = [NSMutableArray arrayWithObjects: nInitialMembersImage];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,12 +37,12 @@
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return maMembersName.count;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 45;
+    return 65;
 }
 //-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -55,7 +58,8 @@
     }
     
     /*cell.lblState.text      = maStates[indexPath.row];*/
-    cell.lblTeamMemberName.text = @"000";
+    cell.lblTeamMemberName.text = maMembersName [indexPath.row];
+    cell.imgTeamMemberImage.image  = [UIImage imageNamed:maMembersImage[indexPath.row]];
     
     return cell;
 }
